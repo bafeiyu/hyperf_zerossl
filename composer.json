@@ -1,0 +1,26 @@
+{
+    "name": "bafeiyu/hyperf_zerossl",
+    "description": "zerossl package for hyperf framework",
+    "type": "library",
+    "require": {
+        "hyperf/guzzle": "~2.2.0",
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bafeiyu\\HyperfZeroSsl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tina"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "hyperf": {
+            "config": "Bafeiyu\\HyperfZeroSsl\\ConfigProvider"
+        }
+    }
+}
